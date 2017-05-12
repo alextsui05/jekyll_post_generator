@@ -1,0 +1,7 @@
+pkg/*
+*.gem
+.bundle
+Gemfile.lock
+NOTES.markdown
+.pomo
+_posts/*
