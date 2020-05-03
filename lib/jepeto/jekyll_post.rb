@@ -7,7 +7,7 @@ module Jepeto
   # or by options passed in by the user.
   HARDCODED_DEFAULT_OPTIONS = {
     date:      Date.today.to_s,
-    extension: 'markdown',
+    extension: 'md',
     published: false,
     layout:    'default'
   }
@@ -22,7 +22,7 @@ module Jepeto
 
   class JekyllPost
     include Jepeto::JekyllPostHelper
-    
+
     attr_reader :options
 
     def initialize(options)
